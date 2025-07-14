@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevVoyager | Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-content">
+            <div class="profile-image-container">
+                <img src="images/profile.jpg" alt="DevVoyager" class="profile-image">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#comments">Comments</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://github.com/AdelereKehinde" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/AdelereKehinde" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://kwork.com/user/DevVoyager" target="_blank"><i class="fas fa-briefcase"></i></a>
+                <a href="https://fiverr.com/devvoyager" target="_blank"><i class="fab fa-fonticons-fi"></i></a>
+                <a href="https://upwork.com/freelancers/AdelereKehinde" target="_blank"><i class="fab fa-upwork"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animated-text">Hello, I'm <span>DevVoyager</span></h1>
+                <h2>Full Stack Developer</h2>
+                <p>Building digital experiences that matter</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-image">
+                    <img src="images/profile.jpg" alt="DevVoyager">
+                </div>
+                <div class="tech-icons">
+                    <i class="fab fa-html5" title="HTML5"></i>
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                    <i class="fab fa-js" title="JavaScript"></i>
+                    <i class="fab fa-react" title="React"></i>
+                    <i class="fab fa-node-js" title="Node.js"></i>
+                    <i class="fas fa-database" title="Database"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full-stack developer with 5+ years of experience building web applications. I specialize in JavaScript technologies across the whole stack (MERN, MEAN).</p>
+                    <p>My approach combines technical expertise with creative problem-solving to deliver high-quality, scalable solutions that meet both user needs and business goals.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span>Name:</span>
+                            <p>AdelereKehinde</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <p>adelerekehinde01@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Phone:</span>
+                            <p>09052510910</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Freelance:</span>
+                            <p>Available</p>
+                        </div>
+                    </div>
+                    <div class="cv-download">
+                        <a href="DevVoyagerCv.txt" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="35">0</div>
+                        <div class="stat-text">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-text">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-text">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML5</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Tailwind</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Bootstrap</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS3/Sass</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Express</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>97%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Django</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Fastapi</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Flask</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Database</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PostgreSQL</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Firebase</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQLALchemy</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB Atlas</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Other</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CI/CD</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>WordPress</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Shopify</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            <div class="projects-container">
+                
+            </div>
+            <div class="github-repos">
+                <h3>My GitHub Repositories</h3>
+                <div class="repos-container" id="github-repos">
+                </div>
+                <a href="https://github.com/AdelereKehinde" target="_blank" class="btn btn-secondary">
+                    View All on GitHub <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <h2 class="section-title">Work <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Full Stack Developer</h3>
+                        <h4>Tech Solutions Inc.</h4>
+                        <p>Lead a team of developers to build scalable web applications using MERN stack. Implemented CI/CD pipelines and improved deployment processes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <h4>Digital Creations</h4>
+                        <p>Developed and maintained multiple client projects with React frontends and Node.js backends. Implemented RESTful APIs and database optimizations.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021- 2023</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <h4>Web Masters</h4>
+                        <p>Created responsive and interactive user interfaces using modern JavaScript frameworks. Collaborated with designers to implement pixel-perfect UIs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Junior Web Developer</h3>
+                        <h4>StartUp Ventures</h4>
+                        <p>Built and maintained company websites. Learned fundamentals of web development and contributed to small-scale projects.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Master's in Computer Science</h4>
+                    <p>Lautech University, 2016</p>
+                </div>
+                <div class="education-item">
+                    <h4>Bachelor's in Software Engineering</h4>
+                    <p>OgunState, 2014</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">Client <span>Testimonials</span></h2>
+            <div class="testimonials-container">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"DevVoyager delivered our project ahead of schedule with exceptional quality. His attention to detail and problem-solving skills are outstanding."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/page3.jpeg" alt="Client">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Working with DevVoyager was a game-changer for our business. He understood our needs perfectly and implemented solutions that exceeded our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/page2.jpeg" alt="Client">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>CTO, InnovateCo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"The best developer I've worked with. His code is clean, well-documented, and maintainable. Will definitely hire again for future projects."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/page1.jpeg" alt="Client">
+                        <div class="author-info">
+                            <h4>Emma Rodriguez</h4>
+                            <p>Product Manager, Digital Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>adelerekehinde01@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>09052510910</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Nigeria OgunState</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-text">
+                            <h4>Availability</h4>
+                            <p>Mon-Fri: 9AM - 6PM</p>
+                        </div>
+                    </div>
+                    <div class="freelance-status">
+                        <h4>Freelance Status</h4>
+                        <div class="status available">
+                            <span></span>
+                            <p>Available for work</p>
+                        </div>
+                    </div>
+                    <div class="hire-me-buttons">
+                        <a href="https://fiverr.com/devvoyager" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-fonticons-fi"></i> Hire on Fiverr
+                        </a>
+                        <a href="https://upwork.com/freelancers/AdelereKehinde" class="btn btn-secondary" target="_blank">
+                            <i class="fab fa-upwork"></i> Hire on Upwork
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comments Section with Socket.io -->
+        <section id="comments" class="comments">
+            <h2 class="section-title">Leave a <span>Comment</span></h2>
+            <div class="comments-container">
+                <div class="comment-form">
+                    <form id="commentForm">
+                        <div class="form-group">
+                            <input type="text" id="commentName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="commentText" rows="3" placeholder="Your Comment" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Post Comment</button>
+                    </form>
+                </div>
+                <div class="comments-list" id="commentsList">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>DevVoyager</h3>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/AdelereKehinde" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/AdelereKehinde" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/AdelereKehinde" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://kworks.ke/DevVoyager" target="_blank"><i class="fas fa-briefcase"></i></a>
+                    <a href="https://fiverr.com/devvoyager" target="_blank"><i class="fab fa-fonticons-fi"></i></a>
+                    <a href="https://upwork.com/freelancers/AdelereKehinde" target="_blank"><i class="fab fa-upwork"></i></a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe to get updates on my latest projects and articles.</p>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> DevVoyager. All Rights Reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/comments.js"></script>
+    
+    <!-- Initialize service worker for PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('js/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>

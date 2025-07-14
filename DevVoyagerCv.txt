@@ -1,0 +1,66 @@
+ADELERE KEHINDE
+Full Stack Developer
+📍 Ogun State, Nigeria
+📞 09052510910
+✉️ adelerekehinde01@gmail.com
+🔗 https://www.upwork.com/freelancers/~0114f5b38037d6a7b0?mp_source=share
+🔗 https:fiverr/DevVoyager 
+
+🔹 PROFESSIONAL SUMMARY
+Resourceful and result-driven Full Stack Developer with 4+ years of experience delivering modern, user-friendly applications. Experienced in frontend and backend technologies, REST API integration, real-time features, and building scalable business tools. Passionate about solving real-world problems through code and helping clients succeed online.
+
+🔹 TECHNICAL SKILLS
+Languages: JavaScript, Python, SQL, HTML5, CSS3
+Frontend: Vanilla JS, React.js, Bootstrap, Tailwind CSS
+Backend: Flask, FastAPI, Node.js
+Database: MySQL, PostgreSQL, SQLite
+Tools: Git, Postman, Docker, VS Code
+Other: REST APIs, JWT Auth, WebSockets, Payment Integration (Moniepoint, Flutterwave)
+
+🔹 TOP PROJECTS
+1. Stationery Bookshop
+
+Built a sales and inventory system with user login, admin controls, and invoice generation.
+
+Tech Stack: Flask + SQLite + Vanilla JS
+
+2. Edu Hub Website
+
+Designed an educational portal with subject filtering, lesson upload, and student/teacher roles.
+
+Tech Stack: Vanilla JS + MySQL + Flask
+
+3. Desktop CBT App
+
+Developed an offline JAMB-style exam system with leaderboard, admin panel, and Tkinter UI.
+
+Packaged as an .exe app for schools with no internet.
+
+🔹 EDUCATION
+D’Royal Model Secondary School
+Senior Secondary Certificate (SSCE)
+
+🔹 WORK PLATFORMS
+🧑‍💻 Upwork: Top-rated freelance developer
+
+🛠️ Fiverr: Verified seller (DevVoyager)
+
+Also accepts direct freelance jobs via email or WhatsApp.
+
+🔹 LANGUAGES
+English (Fluent)
+
+Yoruba (Fluent)
+
+🔹 AVAILABILITY
+Available for remote, freelance, or contract roles (part-time or full-time). Open to both short-term projects and long-term team roles.
+
+🔹 EXTRAS
+Delivers clean, secure, and well-documented code
+
+Friendly with great communication and response time
+
+Eager to work with startups, agencies, or international clients
+
+Open to collaborations and learning new stacks
+
